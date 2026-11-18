@@ -9,54 +9,78 @@ from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_community.vectorstores import FAISS
 
 
-TNAU_URL = (
+TNAU_URLS = [
     "https://agritech.tnau.ac.in/agricultural_engineering/"
-    "agriengg_govt_schemes.html"
-)
+    "agriengg_govt_schemes.html",
+
+    "https://agritech.tnau.ac.in/agricultural_engineering/"
+    "agriengg_schemes.html",
+]
 
 
-def fetch_tnau_website():
+def fetch_tnau_websites():
 
-    print("Connecting to TNAU website...")
+    documents = []
 
-    response = requests.get(
-        TNAU_URL,
-        timeout=30,
-        headers={"User-Agent": "Mozilla/5.0"}
-    )
+    for url in TNAU_URLS:
 
-    response.raise_for_status()
+        print(f"Connecting to: {url}")
 
-    print("TNAU website downloaded successfully!")
+        response = requests.get(
+            url,
+            timeout=30,
+            headers={"User-Agent": "Mozilla/5.0"}
+        )
 
-    soup = BeautifulSoup(response.text, "html.parser")
+        response.raise_for_status()
 
-    for element in soup(["script", "style", "nav", "footer"]):
-        element.decompose()
+        soup = BeautifulSoup(response.text, "html.parser")
 
-    text = soup.get_text(separator="\n", strip=True)
+        for element in soup([
+            "script",
+            "style",
+            "nav",
+            "footer"
+        ]):
+            element.decompose()
 
-    if not text:
-        raise ValueError("No text could be extracted from TNAU website.")
+        text = soup.get_text(
+            separator="\n",
+            strip=True
+        )
 
-    print(f"Extracted {len(text)} characters from TNAU.")
+        if not text:
+            print(f"No text extracted from {url}")
+            continue
 
-    document = Document(
-        page_content=text,
-        metadata={
-            "source": "TNAU Government Schemes Website",
-            "source_url": TNAU_URL
-        }
-    )
+        print(
+            f"Extracted {len(text)} characters "
+            f"from {url}"
+        )
 
-    return [document]
+        document = Document(
+            page_content=text,
+            metadata={
+                "source": "TNAU Government Schemes Website",
+                "source_url": url
+            }
+        )
+
+        documents.append(document)
+
+    if not documents:
+        raise ValueError(
+            "No information could be extracted from TNAU."
+        )
+
+    return documents
 
 
 def process_tnau_website():
 
     print("Starting TNAU website ingestion...")
 
-    documents = fetch_tnau_website()
+    documents = fetch_tnau_websites()
 
     text_splitter = RecursiveCharacterTextSplitter(
         chunk_size=1000,
@@ -85,22 +109,28 @@ def process_tnau_website():
         allow_dangerous_deserialization=True
     )
 
-    # Remove previously stored TNAU website information
+    # Remove previously indexed TNAU website information.
+    # Uploaded PDF information will remain untouched.
     existing_ids = [
         doc_id
         for doc_id, doc in vector_db.docstore._dict.items()
-        if doc.metadata.get("source") == "TNAU Government Schemes Website"
+        if doc.metadata.get("source")
+        == "TNAU Government Schemes Website"
     ]
 
     if existing_ids:
-        print(f"Removing {len(existing_ids)} old TNAU chunks...")
+
+        print(
+            f"Removing {len(existing_ids)} old TNAU chunks..."
+        )
+
         vector_db.delete(ids=existing_ids)
 
-    # Add the latest TNAU website information
+    # Add the latest information from both official pages.
     vector_db.add_documents(chunks)
 
     vector_db.save_local("faiss_db")
 
-    print("TNAU website information updated in FAISS!")
+    print("TNAU website information updated successfully!")
 
     return len(chunks)

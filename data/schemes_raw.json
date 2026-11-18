@@ -1,0 +1,635 @@
+[
+    {
+        "name": "Soil and Water Conservation in the catchments of River Valley Project",
+        "category": "Soil and Water Conservation",
+        "description": "Works include Agro Forestry and Afforestation, and Silt Detention Structure.",
+        "subsidy": "15% on cost of works in Patta Land is provided as subsidy and remaining 75% is treated as loan. The loan amount with interest is recovered in ten equal instalments after a moratorium of two years.",
+        "eligibility": "All the farmers whose lands are covered in the selected priority watersheds in the respective catchment are eligible.",
+        "how_to_apply": null,
+        "required_documents": [],
+        "districts": [
+            "Vellore",
+            "Thiruvannamalal",
+            "Dharmapuri",
+            "Krishnagiri",
+            "Salem"
+        ],
+        "seasons": [],
+        "farmer_types": [],
+        "benefit_type": "Subsidy and Loan",
+        "application_url": null,
+        "contact_office": "Assistant Executive Engineer, River Valley Project, 210 C, Salem Main Road, Backside of Raghupathi Hospital, Krishnagiri-635 001",
+        "source": "Agri pdf.pdf",
+        "source_url": "https://agritech.tnau.ac.in/agricultural_engineering/agriengg_govt_schemes.html"
+    },
+    {
+        "name": "Agricultural Mechanisation Programme",
+        "category": "Agricultural Mechanisation",
+        "description": "Subsidy assistance is provided to farmers for procuring Agricultural Machinery and implements such as Tractors, Power Tillers, Self propelled Paddy Transplanters, Self propelled paddy reapers, Rotavator, Cultivator, Disc Plough, Chisel freer etc.",
+        "subsidy": "25% of the cost of machinery / implements or the ceiling limit prescribed by Government of India for each machinery / implement, whichever is less.",
+        "eligibility": "All farmers",
+        "how_to_apply": "Approach Assistant Executive Engineer, AED in the Revenue Division; Executive Engineer, AED in the District; Superintending Engineer, AED in the Region; or Chief Engineer, Agricultural Engineering Department, Nandanam, Chennai-36.",
+        "required_documents": [],
+        "districts": [],
+        "seasons": [],
+        "farmer_types": [
+            "All farmers"
+        ],
+        "benefit_type": "Subsidy",
+        "application_url": null,
+        "contact_office": "Assistant Executive Engineer, AED in the Revenue Division; Executive Engineer, AED in the District; ‘Superintending Engineer, AED in the Region; Chief Engineer, Agricultural Engineering Department, Nandanam, Chennai-36",
+        "source": "Agri pdf.pdf",
+        "source_url": "https://agritech.tnau.ac.in/agricultural_engineering/agriengg_govt_schemes.html"
+    },
+    {
+        "name": "Command Area Development and Water Management",
+        "category": null,
+        "description": null,
+        "subsidy": null,
+        "eligibility": null,
+        "how_to_apply": null,
+        "required_documents": [],
+        "districts": [],
+        "seasons": [],
+        "farmer_types": [],
+        "benefit_type": null,
+        "application_url": null,
+        "contact_office": null,
+        "source": "Agri pdf.pdf",
+        "source_url": "https://agritech.tnau.ac.in/agricultural_engineering/agriengg_govt_schemes.html"
+    },
+    {
+        "name": "Demonstration of Agricultural Machinery and Implements",
+        "category": null,
+        "description": "Demonstrations of Agricultural Implements / Machinery are taken up in the Farmers’ Fields.",
+        "subsidy": null,
+        "eligibility": "All farmers",
+        "how_to_apply": "Approach Assistant Executive Engineer, AED in the Revenue Division, Executive Engineer, AED in the District, or Superintending Engineer, AED in the Region.",
+        "required_documents": [],
+        "districts": [],
+        "seasons": [],
+        "farmer_types": [
+            "All farmers"
+        ],
+        "benefit_type": null,
+        "application_url": null,
+        "contact_office": "Assistant Executive Engineer, AED in the Revenue Division; Executive Engineer, AED in the District; Superintending Engineer, AED in the Region",
+        "source": "Agri pdf.pdf",
+        "source_url": "https://agritech.tnau.ac.in/agricultural_engineering/agriengg_govt_schemes.html"
+    },
+    {
+        "name": "Training Programme to Farmers in handling and maintenance",
+        "category": null,
+        "description": null,
+        "subsidy": null,
+        "eligibility": null,
+        "how_to_apply": null,
+        "required_documents": [],
+        "districts": [],
+        "seasons": [],
+        "farmer_types": [],
+        "benefit_type": null,
+        "application_url": null,
+        "contact_office": null,
+        "source": "Agri pdf.pdf",
+        "source_url": "https://agritech.tnau.ac.in/agricultural_engineering/agriengg_govt_schemes.html"
+    },
+    {
+        "name": "Rain Water Harvesting and Runoff Management Programme",
+        "category": null,
+        "description": "Works include percolation ponds, major, medium and minor check dams, farm ponds, rejuvenation of unused wells, and village tanks / Ooranies.",
+        "subsidy": null,
+        "eligibility": null,
+        "how_to_apply": null,
+        "required_documents": [],
+        "districts": [],
+        "seasons": [],
+        "farmer_types": [],
+        "benefit_type": null,
+        "application_url": null,
+        "contact_office": null,
+        "source": "Agri pdf.pdf",
+        "source_url": "https://agritech.tnau.ac.in/agricultural_engineering/agriengg_govt_schemes.html"
+    },
+    {
+        "name": "NABARD assisted Rain Water Harvesting Programme",
+        "category": null,
+        "description": "Rain Water Harvesting Programme involving percolation ponds, major, medium and minor check dams, farm pond, and rejuvenation of unused wells.",
+        "subsidy": "100% grant is provided on cost of works taken up in community lands. 75% subsidy is provided on cost of works in patta lands and the remaining 25% is collected as beneficiary share.",
+        "eligibility": "All the farmers in the selected watersheds in the respective district.",
+        "how_to_apply": null,
+        "required_documents": [],
+        "districts": [
+            "Kanchipuram",
+            "Thiruvallur",
+            "Vilupuram",
+            "Cuddalore",
+            "Vellore",
+            "Salem",
+            "Erode",
+            "Namakkal",
+            "Trichy",
+            "Perambalur",
+            "Karur",
+            "Dindigul",
+            "Theni",
+            "Virudhunagar",
+            "Ramnad",
+            "Sivaganga",
+            "Thoothukudi",
+            "Coimbatore",
+            "Nilgiris"
+        ],
+        "seasons": [],
+        "farmer_types": [],
+        "benefit_type": "Subsidy / Grant",
+        "application_url": null,
+        "contact_office": "Assistant Executive Engineer, AED in the Revenue Division. Executive Engineer, AED in the District. Superintending Engineer, AED in the Region.",
+        "source": "Agri pdf.pdf",
+        "source_url": "https://agritech.tnau.ac.in/agricultural_engineering/agriengg_govt_schemes.html"
+    },
+    {
+        "name": "Soil and Water Conservation under Hill Area Development Programme",
+        "category": null,
+        "description": "Details of Works include Bench Terracing, drainage line treatment works, Water Harvesting Structures, Collection Wells, Terrace support works, Stream training works, silt detention tanks and landslide treatment works.",
+        "subsidy": "100% grant is provided for Soil Conservation measures. However, beneficiaries are required to contribute at the rate of 10% for individual works and 5% for community works. It is 5% in case of SC/ST, for individual works. This contribution shall be deposited in the Watershed Development fund. The landslide treatment measures are executed with 100 % grant.",
+        "eligibility": "Farmers whose lands are covered in the selected watersheds are eligible.",
+        "how_to_apply": "Approach Assistant Executive Engineer, AED, IGBP Complex, Botanical Garden Road, Udagamandalam-643 001, Nilgiris District; Assistant Executive Engineer, AED Mysore Road, Selvipettai, Gudalur-643 312, Nilgiris District; Assistant Executive Engineer, AED, Land Slide, Hill area Development Programme, 117. Brindavan School Road, Wellington Bazaar, Wellington, Coonoor-643 102, Nigiri District; Executive Engineer, AED Joint Director of Horticulture Office Complex, Vijayanagaram, Udagamandalam-643 001, Nilgiris District; Superintending Engineer, AED, Coonoor, Nilgiris District; or Chief Engineer, Agricultural Engineering Department, Nandanam, Chennai-35.",
+        "required_documents": [],
+        "districts": [
+            "Nilgiris District"
+        ],
+        "seasons": [],
+        "farmer_types": [
+            "All farmers",
+            "SC/ST farmers"
+        ],
+        "benefit_type": "Grant / Subsidy",
+        "application_url": null,
+        "contact_office": "Assistant Executive Engineer, AED, IGBP Complex, Botanical Garden Road, Udagamandalam-643 001, Nilgiris District",
+        "source": "Agri pdf.pdf",
+        "source_url": "https://agritech.tnau.ac.in/agricultural_engineering/agriengg_govt_schemes.html"
+    },
+    {
+        "name": "Soil and Water Conservation under Wester Ghats Development",
+        "category": null,
+        "description": null,
+        "subsidy": null,
+        "eligibility": null,
+        "how_to_apply": null,
+        "required_documents": [],
+        "districts": [],
+        "seasons": [],
+        "farmer_types": [],
+        "benefit_type": null,
+        "application_url": null,
+        "contact_office": null,
+        "source": "Agri pdf.pdf",
+        "source_url": ""
+    },
+    {
+        "name": "Soil Conservation in Tribal Areas under Integrated Tribal Development Programme",
+        "category": null,
+        "description": "Soil conservation works including Contour Rubble Bund / Contour Stone wall, land shaping, pipe laying, disc ploughing, irrigation check dams, and major and minor check dams in selected tribal areas.",
+        "subsidy": "100% Subsidy is provided for all the works executed in the lands of tribal farmers in the selected tribal areas.",
+        "eligibility": "Tribal farmers in the selected tribal areas whose lands are covered.",
+        "how_to_apply": null,
+        "required_documents": [],
+        "districts": [
+            "Villupuram",
+            "Vellore",
+            "Tiruvannamalai",
+            "Salem",
+            "Namakkal",
+            "Dharmapuri",
+            "Trichy"
+        ],
+        "seasons": [],
+        "farmer_types": [
+            "Tribal farmers"
+        ],
+        "benefit_type": "Subsidy",
+        "application_url": null,
+        "contact_office": null,
+        "source": "Agri pdf.pdf",
+        "source_url": "https://agritech.tnau.ac.in/agricultural_engineering/agriengg_govt_schemes.html"
+    },
+    {
+        "name": "Replacement of old Pumpsets with new Pumpsets",
+        "category": "Agricultural Engineering / Irrigation",
+        "description": "Replacement of old, inefficient electrical pumpsets with new BIS pumpsets and renewal of electrical accessories.",
+        "subsidy": "For SC/ST Farmers: Pump sets below 5 HP: Subsidy of Rs.3500 or 50% of the cost of the pump set whichever is less. Pump sets of 5 HP & above: Subsidy of Rs.6000 or 50% of the cost of the pump set whichever is less. Cost of renewal of panel and other electrical accessories: Subsidy of Rs.1500 or 50% of the cost of panel whichever is less. For Other Farmers: Pump sets below 5 HP: Subsidy of Rs.2500 or 25% of the cost of the pump set whichever is less. Pump sets of 5 HP & above: Subsidy of Rs.5000 or 25% of the cost of the pump set whichever is less.",
+        "eligibility": "The farmers having agricultural wells with old, inefficient electrical pump sets in all the districts of Tamil Nadu (except Chennai).",
+        "how_to_apply": "Approach the Assistant Executive Engineer (AED) in the Revenue Division, Executive Engineer (AED) in the District, Superintending Engineer (AED) in the Region, or Chief Engineer, Agricultural Engineering Department, Nandanam, Chennai-35.",
+        "required_documents": [],
+        "districts": [
+            "All Districts (except Chennai)"
+        ],
+        "seasons": [],
+        "farmer_types": [
+            "SC/ST Farmers",
+            "Other Farmers"
+        ],
+        "benefit_type": "Subsidy",
+        "application_url": null,
+        "contact_office": "Assistant Executive Engineer , AED in the Revenue Division / Executive Engineer, AED in the District / Superintending Engineer, AED in the Region / Chief Engineer, Agricultural Engineering Department, Nandanam, Chennai-35",
+        "source": "Agri pdf.pdf",
+        "source_url": "https://agritech.tnau.ac.in/agricultural_engineering/agriengg_govt_schemes.html"
+    },
+    {
+        "name": "World Bank aided Tamil Nadu Irrigated Agriculture Modernization and Water bodies Restoration and Management (TN IAMWARM) Project",
+        "category": null,
+        "description": null,
+        "subsidy": null,
+        "eligibility": null,
+        "how_to_apply": null,
+        "required_documents": [],
+        "districts": [
+            "Viluppuram",
+            "Tiruvannamalai",
+            "Salem",
+            "Coimbatore",
+            "Erode",
+            "Pudukottai",
+            "Sivagangai",
+            "Virudhunagar",
+            "Krishnagiri",
+            "Perambalur",
+            "Thanjavur",
+            "Theni"
+        ],
+        "seasons": [],
+        "farmer_types": [],
+        "benefit_type": null,
+        "application_url": null,
+        "contact_office": null,
+        "source": "Agri pdf.pdf",
+        "source_url": "https://agritech.tnau.ac.in/agricultural_engineering/agriengg_govt_schemes.html"
+    },
+    {
+        "name": "Minor irrigation Scheme",
+        "category": "Irrigation",
+        "description": "Selection of sites for construction of openwell and Borewells, and construction of tubewells in alluvial soil.",
+        "subsidy": "Agricultural Engineering Department hires out machinery as per Government approved hire charges and execute the works.",
+        "eligibility": "Farmers of all categories",
+        "how_to_apply": "Machinery are alloted on priority basis. Approach the Assistant Executive Engineer, AED in the Revenue Division, Executive Engineer, AED in the District, Superintending Engineer, AED in the Region, or Chief Engineer, Agricultural Engineering Department, Nandanam, Chennai-35.",
+        "required_documents": [],
+        "districts": [
+            "All Districts except Nilgiris and Kanyakumari District"
+        ],
+        "seasons": [],
+        "farmer_types": [
+            "All categories"
+        ],
+        "benefit_type": "Machinery Hiring Service",
+        "application_url": null,
+        "contact_office": "Assistant Executive Engineer, AED in the Revenue Division; Executive Engineer, AED in the District; Superintending Engineer, AED in the Region; Chief Engineer, Agricultural Engineering Department, Nandanam, Chennai-35",
+        "source": "Agri pdf.pdf",
+        "source_url": "https://agritech.tnau.ac.in/agricultural_engineering/agriengg_govt_schemes.html"
+    },
+    {
+        "name": "Land Development Scheme",
+        "category": "Land Development",
+        "description": "Department hires out machinery to farmers as per Government approved hire charges and executes works such as Land Shaping, Land Levelling, Land Reclamation, Ploughing, Pudfing, and Paddy Harvesting by Combine Harvester.",
+        "subsidy": "Agricultural Engineering Department hires out machinery to farmers as per Government approved hire charges and execute the works.",
+        "eligibility": "Farmers of all categories. Machinery are allotted on priority basis.",
+        "how_to_apply": "Approach the Assistant Executive Engineer (AED) in the Revenue Division, Executive Engineer (AED) in District, Superintending Engineer (AED) in the Region, or Chief Engineer, Agricultural Engineering Department, Nandanam, Chennai-35.",
+        "required_documents": [],
+        "districts": [
+            "All Districts"
+        ],
+        "seasons": [],
+        "farmer_types": [
+            "all categories"
+        ],
+        "benefit_type": "Machinery hiring at government approved hire charges",
+        "application_url": null,
+        "contact_office": "Assistant Executive Engineer, AED in the Revenue Division / Executive Engineer, AED in District / Superintending Engineer, AED in the Region / Chief Engineer, Agricultural Engineering Department, Nandanam, Chennai-35",
+        "source": "Agri pdf.pdf",
+        "source_url": "https://agritech.tnau.ac.in/agricultural_engineering/agriengg_govt_schemes.html"
+    },
+    {
+        "name": "National Agriculture Development Programme (NADP)",
+        "category": "Agricultural Mechanisation and Dry Land Development",
+        "description": "Provides subsidy assistance to farmers for purchasing newly developed agricultural machinery/implements, popularising conventional machinery/implements, dry land development works like plastic lined farm ponds and compartmental bunding, and establishment of land resources inventory and GIS data base.",
+        "subsidy": "50% subsidy assistance is provided to farmers for purchasing newly developed agricultural machinery/implements such as mini combine harvester, multi crop thrasher, paddy transplanter, post hole digger etc.",
+        "eligibility": "All farmers",
+        "how_to_apply": "Approach the Assistant Executive Engineer, AED in the Revenue Division.",
+        "required_documents": [],
+        "districts": [
+            "All Districts (except Chennai)"
+        ],
+        "seasons": [],
+        "farmer_types": [
+            "All farmers"
+        ],
+        "benefit_type": "Subsidy",
+        "application_url": null,
+        "contact_office": "Assistant Executive Engineer, AED in the Revenue Division",
+        "source": "Agri pdf.pdf",
+        "source_url": "https://agritech.tnau.ac.in/agricultural_engineering/agriengg_govt_schemes.html"
+    },
+    {
+        "name": "River Valley Project",
+        "category": null,
+        "description": null,
+        "subsidy": null,
+        "eligibility": "All the farmers whose lands are covered in the selected priority watersheds in the respective catchment are eligible",
+        "how_to_apply": null,
+        "required_documents": [],
+        "districts": [
+            "Krishnagiri",
+            "Dharmapuri",
+            "Salem",
+            "Tiruvannamalai"
+        ],
+        "seasons": [],
+        "farmer_types": [],
+        "benefit_type": null,
+        "application_url": null,
+        "contact_office": "Assistant Executive Engineer, River Valley Project , 210 C, Salem Main Road, Backside of Raghupathi Hospital, Krishnagiri-635 001; Assistant Executive Engineer, River Valley Project , No.250, Thiru Vi.Ka.Nagar, Harur-636 903, Dharmapuri District; Assistant Executive Engineer, River Valley Project -Unit, 4/494 (1) First Floor, Railway station Road , Dharmapuri -636 701; Assistant Executive Engineer , River Valley Project — Unit Il, Collectorate Complex, Dharmapuri -636 701; Assistant Executive Engineer (River Valley Project , 98 - Raja Ganapathy Nagar, Mettur -636 401, Salem District; Assistant Executive Engineer River Valley Project , Sivagamiamrnalillam , Senthamil Nagar, Terkupet(Post), Chengam-606 709, Tiruvannamalai District; Executive Engineer , RVP, Dharmapuri; ‘Superintending Engineer , A.E.D, Salom; Chief Engineer, Agricultural Engineering Department, Nandanam, Chennai-35",
+        "source": "Agri pdf.pdf",
+        "source_url": ""
+    },
+    {
+        "name": "Command Area Development and Water Management Programme",
+        "category": null,
+        "description": "Water management programme including national water supply works and formation of farmers associations / councils.",
+        "subsidy": "The expenditure is shared between Centre and State with full grant. A minimum of 10% contribution by the beneficiaries for certain work component is mandatory. Further Rs. 540/- per ha. subsidy is provided for registered Farmers Council and Rs.60/- per ha. is collected from the farmers council as their contribution.",
+        "eligibility": "All the farmers whose lands are covered in the selected Command area in the programme are eligible for subsidy.",
+        "how_to_apply": "After selection of sluice and command, Water Users Association will be formed and the works will be completed within the financial year.",
+        "required_documents": [],
+        "districts": [
+            "Thanjavur",
+            "Tiruvarur",
+            "Nagappattinam",
+            "Trichy",
+            "Cuddalore",
+            "Villupuram",
+            "Erode",
+            "Tirunelveli",
+            "Dharmapuri"
+        ],
+        "seasons": [],
+        "farmer_types": [],
+        "benefit_type": "Subsidy / Grant",
+        "application_url": null,
+        "contact_office": "Assistant Executive Engineer Command Area Development Programme",
+        "source": "Agri pdf.pdf",
+        "source_url": "https://agritech.tnau.ac.in/agricultural_engineering/agriengg_govt_schemes. html"
+    },
+    {
+        "name": "Rejuvenation of unused wells / Village tanks / Ooranies",
+        "category": null,
+        "description": "Rejuvenation of unused wells and village tanks / ooranies.",
+        "subsidy": "100% grant is provided on cost of works taken up in community lands with 10% beneficiary contribution in cash (5% in case of SC/ST). 90% subsidy is provided on cost of works in patta lands with remaining 10% collected as beneficiary share (5% in case of SC/ST) in cash/labour/material.",
+        "eligibility": "All the farmers in the selected watersheds in the respective district.",
+        "how_to_apply": null,
+        "required_documents": [],
+        "districts": [],
+        "seasons": [],
+        "farmer_types": [],
+        "benefit_type": "Subsidy / Grant",
+        "application_url": null,
+        "contact_office": "Assistant Executive Engineer , AED in the Revenue Division. Executive Engineer , AED in the District. Superintending Engineer , AED in the Region. Chief Engineer, Agricultural Engineering Department, Nandanam, Chennai-35.",
+        "source": "Agri pdf.pdf",
+        "source_url": ""
+    },
+    {
+        "name": "Soil and Water Conservation under Western Ghats Development Programme",
+        "category": null,
+        "description": "Soil and water conservation works including staggered contour trenching, gabion structure, drainage line treatment works, contour rubble bund, contour / compartmental bunds, check dam, village ponds, water harvesting structures, farm ponds, and land shaping.",
+        "subsidy": "100% grant is provided for Soil Conservation measures. However, beneficiaries are required to contribute at the rate of 10% for individual works and 5% for community works. Its 5% in case of SC/ST, for individual works.",
+        "eligibility": "The farmers whose lands are covered in the selected Watersheds are eligible for subsidy.",
+        "how_to_apply": "Approach Assistant Executive Engineer, AED in the Revenue Division, Executive Engineer, AED in the District, Superintending Engineer, AED in the Region, or Chief Engineer, Agricultural Engineering Department, Nandanam, Chennai-35.",
+        "required_documents": [],
+        "districts": [
+            "Coimbatore",
+            "Erode",
+            "Madurai",
+            "Theni",
+            "Dindigul",
+            "Virudhunagar",
+            "Tirunelveli",
+            "Kanyakumari"
+        ],
+        "seasons": [],
+        "farmer_types": [
+            "All farmers",
+            "SC/ST farmers"
+        ],
+        "benefit_type": "Grant / Subsidy",
+        "application_url": null,
+        "contact_office": "Assistant Executive Engineer, AED in the Revenue Division / Executive Engineer, AED in the District / Superintending Engineer, AED in the Region / Chief Engineer, Agricultural Engineering Department, Nandanam, Chennai-35",
+        "source": "Agri pdf.pdf",
+        "source_url": "https://agritech.tnau.ac.in/agricultural_engineering/agriengg_govt_schemes.html"
+    },
+    {
+        "name": "Imrigation Check dams (Major and Minor Check dams)",
+        "category": null,
+        "description": "Construction of major and minor check dams in the lands of tribal farmers in selected tribal areas.",
+        "subsidy": "100% Subsidy is provided for all the works executed in the lands of tribal farmers in the selected tribal areas.",
+        "eligibility": "Land Owning Scheduled Tribal farmers in the seven districts where the scheme is being implemented are eligible.",
+        "how_to_apply": "Approach the Assistant Executive Engineer (AED) in the Revenue Division, Executive Engineer (AED) in the District, Superintending Engineer (AED) in the Region, or Chief Engineer at the Agricultural Engineering Department, Nandanam, Chennai-35.",
+        "required_documents": [],
+        "districts": [],
+        "seasons": [],
+        "farmer_types": [
+            "Scheduled Tribal farmers",
+            "Tribal farmers"
+        ],
+        "benefit_type": "Subsidy",
+        "application_url": null,
+        "contact_office": "Assistant Executive Engineer, AED in the Revenue Division; Executive Engineer, AED in the District; Superintending Engineer, AED in the Region; Chief Engineer, Agricultural Engineering Department, Nandanam, Chennai-35",
+        "source": "Agri pdf.pdf",
+        "source_url": "https://agritech.tnau.ac.in/agricultural_engineering/agriengg_govt_schemes.html"
+    },
+    {
+        "name": "Installation of Drip and Sprinkler Irrigation systems",
+        "category": "Irrigation",
+        "description": "Installation of Drip and Sprinkler Irrigation systems in the selected sub-basins.",
+        "subsidy": "50% subsidy to farmers subject to the ceiling fixed by Government of India",
+        "eligibility": "All farmers in the selected sub-basins.",
+        "how_to_apply": null,
+        "required_documents": [],
+        "districts": [
+            "Madurai",
+            "Tirunelveli"
+        ],
+        "seasons": [],
+        "farmer_types": [],
+        "benefit_type": "Subsidy",
+        "application_url": null,
+        "contact_office": "Executive Engineer, AED in the District; Superintending Engineer, AED in the Region; Chief Engineer, Agricultural Engineering Department, Nandanam, Chennai-35",
+        "source": "Agri pdf.pdf",
+        "source_url": ""
+    },
+    {
+        "name": "Underground PVC Pipe laying and community Bore wells",
+        "category": "Irrigation",
+        "description": "Underground PVC Pipe laying and community Bore wells in selected sub-basins.",
+        "subsidy": "100% grant to farmers. However, 10% beneficiary contribution is collected for maintenance.",
+        "eligibility": "All farmers in the selected sub-basins.",
+        "how_to_apply": null,
+        "required_documents": [],
+        "districts": [
+            "Madurai",
+            "Tirunelveli"
+        ],
+        "seasons": [],
+        "farmer_types": [],
+        "benefit_type": "Grant",
+        "application_url": null,
+        "contact_office": "Executive Engineer, AED in the District; Superintending Engineer, AED in the Region; Chief Engineer, Agricultural Engineering Department, Nandanam, Chennai-35",
+        "source": "Agri pdf.pdf",
+        "source_url": ""
+    },
+    {
+        "name": "Farm mechanization",
+        "category": "Farm Mechanization",
+        "description": "Farm mechanization works in selected sub-basins.",
+        "subsidy": "100% subsidy to Water Users Association",
+        "eligibility": "All farmers in the selected sub-basins.",
+        "how_to_apply": null,
+        "required_documents": [],
+        "districts": [
+            "Madurai",
+            "Tirunelveli"
+        ],
+        "seasons": [],
+        "farmer_types": [
+            "Water Users Association"
+        ],
+        "benefit_type": "Subsidy",
+        "application_url": null,
+        "contact_office": "Executive Engineer, AED in the District; Superintending Engineer, AED in the Region; Chief Engineer, Agricultural Engineering Department, Nandanam, Chennai-35",
+        "source": "Agri pdf.pdf",
+        "source_url": ""
+    },
+    {
+        "name": "Construction of Farm ponds",
+        "category": "Water Conservation",
+        "description": "Construction of Farm ponds in selected sub-basins.",
+        "subsidy": "10% subsidy to General Category farmers. 95% subsidy to SC/ST farmers",
+        "eligibility": "All farmers in the selected sub-basins.",
+        "how_to_apply": null,
+        "required_documents": [],
+        "districts": [
+            "Madurai",
+            "Tirunelveli"
+        ],
+        "seasons": [],
+        "farmer_types": [
+            "General Category farmers",
+            "SC/ST farmers"
+        ],
+        "benefit_type": "Subsidy",
+        "application_url": null,
+        "contact_office": "Executive Engineer, AED in the District; Superintending Engineer, AED in the Region; Chief Engineer, Agricultural Engineering Department, Nandanam, Chennai-35",
+        "source": "Agri pdf.pdf",
+        "source_url": ""
+    },
+    {
+        "name": "Construction of Water Harvesting Structures",
+        "category": "Water Conservation",
+        "description": "Construction of Water Harvesting Structures such as Check dams & Percolation Ponds in selected sub-basins.",
+        "subsidy": "100% grant to farmers however the 10% beneficiary contribution is collected for maintenance",
+        "eligibility": "All farmers in the selected sub-basins.",
+        "how_to_apply": null,
+        "required_documents": [],
+        "districts": [
+            "Madurai",
+            "Tirunelveli"
+        ],
+        "seasons": [],
+        "farmer_types": [],
+        "benefit_type": "Grant",
+        "application_url": null,
+        "contact_office": "Executive Engineer, AED in the District; Superintending Engineer, AED in the Region; Chief Engineer, Agricultural Engineering Department, Nandanam, Chennai-35",
+        "source": "Agri pdf.pdf",
+        "source_url": ""
+    },
+    {
+        "name": "Dry Land Development Works",
+        "category": null,
+        "description": "Dry land development works are taken up with grant and farmers' contribution.",
+        "subsidy": "90% grant and 10% farmers' contribution",
+        "eligibility": "All farmers",
+        "how_to_apply": "Approach Assistant Executive Engineer, AED in the Revenue Division; Executive Engineer, AED in the District; Superintending Engineer, AED in the Region; or Chief Engineer, Agricultural Engineering Department, Nandanam, Chennai-36.",
+        "required_documents": [],
+        "districts": [],
+        "seasons": [],
+        "farmer_types": [
+            "All farmers"
+        ],
+        "benefit_type": "Grant",
+        "application_url": null,
+        "contact_office": "Assistant Executive Engineer, AED in the Revenue Division / Executive Engineer, AED in the District / Superintending Engineer, AED in the Region / Chief Engineer, Agricultural Engineering Department, Nandanam, Chennai-36",
+        "source": "Agri pdf.pdf",
+        "source_url": ""
+    },
+    {
+        "name": "Soil and Water Conservation under Western Ghats Development",
+        "category": null,
+        "description": null,
+        "subsidy": null,
+        "eligibility": null,
+        "how_to_apply": null,
+        "required_documents": [],
+        "districts": [],
+        "seasons": [],
+        "farmer_types": [],
+        "benefit_type": null,
+        "application_url": null,
+        "contact_office": null,
+        "source": "TNAU Government Schemes Website",
+        "source_url": "https://agritech.tnau.ac.in/agricultural_engineering/agriengg_govt_schemes.html"
+    },
+    {
+        "name": "Training Programme to Farmers in handling and maintenance of Agricultural machinery",
+        "category": null,
+        "description": "Refresher training programmes on handling and maintenance of newly developed agricultural machinery to farmers and rural youth are conducted.",
+        "subsidy": null,
+        "eligibility": "All farmers and rural unemployed youth between the age group of 18 to 40",
+        "how_to_apply": "Approach Assistant Executive Engineer, AED in the Revenue Division, Executive Engineer, AED in the District, Superintending Engineer, AED in the Region, or Chief Engineer, Agricultural Engineering Department, Nandanam, Chennai-35.",
+        "required_documents": [],
+        "districts": [],
+        "seasons": [],
+        "farmer_types": [
+            "All farmers",
+            "Rural unemployed youth"
+        ],
+        "benefit_type": null,
+        "application_url": null,
+        "contact_office": "Assistant Executive Engineer, AED in the Revenue Division; Executive Engineer, AED in the District; Superintending Engineer, AED in the Region; Chief Engineer, Agricultural Engineering Department, Nandanam, Chennai-35",
+        "source": "TNAU Government Schemes Website",
+        "source_url": "https://agritech.tnau.ac.in/agricultural_engineering/agriengg_govt_schemes.html"
+    },
+    {
+        "name": "Soil Conservation in Tribal Areas under Integrated Tribal Development Programme District Project Area",
+        "category": "Soil Conservation / Tribal Development",
+        "description": "Works include Contour Rubble Bund / Contour Stone wall, Land Shaping, Pipe laying, Disc ploughing, Irrigation Check dams, Major and Minor Check dams.",
+        "subsidy": "100% Subsidy is provided for all the works executed in the lands of tribal farmers in the selected tribal areas.",
+        "eligibility": "Land Owning Scheduled Tribal farmers in the seven districts where the scheme is being implemented are eligible.",
+        "how_to_apply": "Approach the Assistant Executive Engineer, AED in the Revenue Division, Executive Engineer, AED in the District, Superintending Engineer, AED in the Region, or Chief Engineer, Agricultural Engineering Department, Nandanam, Chennai-35.",
+        "required_documents": [],
+        "districts": [
+            "Villupuram",
+            "Vellore",
+            "Tiruvannamalai",
+            "Salem",
+            "Namakkal",
+            "Dharmapuri",
+            "Trichy"
+        ],
+        "seasons": [],
+        "farmer_types": [
+            "Scheduled Tribal farmers"
+        ],
+        "benefit_type": "Subsidy",
+        "application_url": null,
+        "contact_office": "Assistant Executive Engineer, AED in the Revenue Division / Executive Engineer, AED in the District / Superintending Engineer, AED in the Region / Chief Engineer, Agricultural Engineering Department, Nandanam, Chennai-35",
+        "source": "TNAU Government Schemes Website",
+        "source_url": "https://agritech.tnau.ac.in/agricultural_engineering/agriengg_govt_schemes.html"
+    }
+]
