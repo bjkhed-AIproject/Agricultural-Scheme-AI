@@ -1,0 +1,19 @@
+
+# Private API keys
+.env
+
+# Python virtual environment
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# FAISS database
+faiss_db/
+
+# Uploaded documents
+documents/
+
+# Streamlit cache
+.streamlit/
