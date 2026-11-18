@@ -1,130 +1,183 @@
-# 🌾 Agricultural Government Schemes AI
+# 🌾 உழவனின் உரிமைக்கரம்
+## Tamil Nadu Agricultural Scheme AI Assistant
 
-## Project Overview
+### Project Overview
 
-Agricultural Government Schemes AI is a Retrieval-Augmented Generation (RAG) application that helps users find information about agricultural government schemes.
+உழவனின் உரிமைக்கரம் is a multilingual AI-powered agricultural government scheme assistant developed as part of my Generative AI course.
 
-Users can upload agricultural scheme PDF documents, retrieve information from the official Tamil Nadu Agricultural University (TNAU) website, and ask questions through an AI-powered interface.
+The application helps farmers discover Tamil Nadu agricultural government schemes, understand scheme benefits and subsidies, and obtain answers to their questions in English and Tamil.
 
-## Technologies Used
+It uses Retrieval-Augmented Generation (RAG) to retrieve relevant information from agricultural scheme documents and the Tamil Nadu Agricultural University (TNAU) website before generating answers using Google Gemini.
 
-- Python
-- Streamlit – Frontend
-- FastAPI – Backend
-- FAISS – Vector Database
-- HuggingFace Sentence Transformers – Text Embeddings
-- Google Gemini – AI Response Generation
-- LangChain – RAG Pipeline
-- PyMuPDF and Tesseract OCR – PDF Text Extraction
-- BeautifulSoup – Website Data Extraction
+### Problem Statement
 
-## Data Sources
+Farmers may find it difficult to access, understand and navigate information about government agricultural schemes.
 
-1. Uploaded agricultural government scheme PDF documents.
-2. Official TNAU Agricultural Engineering Government Schemes website:
+This project aims to make agricultural scheme information easier to find and understand through a simple, multilingual AI-powered application.
 
-   https://agritech.tnau.ac.in/agricultural_engineering/agriengg_govt_schemes.html
+### Key Features
 
-## Main Features
+- **Scheme Explorer:** Browse 15 agricultural government schemes.
+- **Search and Filter:** Find schemes using search and district filters.
+- **AI Chatbot:** Ask questions about agricultural schemes in natural language.
+- **Tamil and English Support:** Select the preferred language.
+- **RAG-Based Answers:** Retrieve relevant information before generating answers.
+- **Source References:** Display supporting source information with chatbot answers.
+- **PDF Ingestion:** Upload agricultural scheme PDF documents.
+- **Website Ingestion:** Retrieve information from the official TNAU website.
+- **Farmer Training:** Dedicated section for agricultural training programme information.
+- **Responsive Interface:** Dark green-themed Streamlit interface.
 
-- Upload agricultural scheme PDF documents.
-- Extract text from scanned PDFs using OCR.
-- Fetch agricultural scheme information from the TNAU website.
-- Split documents into text chunks.
-- Generate embeddings using HuggingFace.
-- Store and retrieve information using FAISS.
-- Ask questions in natural language.
-- Generate answers using Google Gemini.
+### Technologies Used
 
-## Project Structure
+| Technology | Purpose |
+|---|---|
+| Python | Core programming language |
+| Streamlit | Frontend application |
+| FastAPI | Backend API |
+| LangChain | RAG workflow |
+| FAISS | Vector database |
+| HuggingFace Sentence Transformers | Text embeddings |
+| Google Gemini | AI answer generation |
+| PyMuPDF / PyPDF | PDF processing |
+| Tesseract OCR | Text extraction from scanned PDFs |
+| BeautifulSoup | Website content extraction |
+
+### System Architecture
+
+1. **Data Sources:** Agricultural scheme PDFs and the official TNAU website.
+2. **Ingestion:** Extract and split documents into text chunks.
+3. **Embedding:** Convert text chunks into vector embeddings using HuggingFace.
+4. **Vector Storage:** Store and search embeddings using FAISS.
+5. **Retrieval:** Retrieve relevant passages for the user's question.
+6. **Generation:** Send retrieved context and the question to Google Gemini.
+7. **Response:** Display the generated answer and supporting sources through Streamlit.
+
+### Official Data Source
+
+Tamil Nadu Agricultural University (TNAU) – Agricultural Engineering Government Schemes:
+
+https://agritech.tnau.ac.in/agricultural_engineering/agriengg_govt_schemes.html
+
+### Project Structure
 
 ```text
 Agricultural_Scheme_AI/
 │
 ├── backend/
-│   ├── main.py
 │   ├── ingestion.py
+│   ├── main.py
 │   ├── retrieval.py
+│   ├── scheme_catalogue.py
+│   ├── split_scheme_sections.py
 │   └── website_ingestion.py
 │
 ├── frontend/
 │   └── app.py
 │
-├── documents/
+├── data/
+│   ├── original_pdf_text.txt
+│   ├── schemes.json
+│   ├── schemes_raw.json
+│   └── scheme_sections.json
+│
 ├── faiss_db/
-├── venv/
-├── .env
+│   ├── index.faiss
+│   └── index.pkl
+│
+├── documents/       # Local uploaded documents
+├── .env             # Private API key (not committed)
 ├── .gitignore
 ├── requirements.txt
 └── README.md
 ```
 
-## Installation
+### Installation and Setup
 
-Create and activate a Python virtual environment:
+**1. Clone the repository**
+
+```bash
+git clone https://github.com/bjkhed-AIproject/Agricultural-Scheme-AI.git
+```
+
+**2. Open the project folder**
+
+```bash
+cd Agricultural-Scheme-AI
+```
+
+**3. Create a virtual environment**
+
+```bash
+python -m venv venv
+```
+
+**4. Activate the virtual environment (Windows PowerShell)**
 
 ```powershell
-python -m venv venv
 .\venv\Scripts\Activate.ps1
 ```
 
-Install the required libraries:
+**5. Install dependencies**
 
-```powershell
+```bash
 python -m pip install -r requirements.txt
 ```
 
-Install Tesseract OCR separately on Windows and ensure its executable is available at:
+**6. Configure the Gemini API key**
+
+Create a `.env` file in the project root folder and add:
 
 ```text
-C:\Program Files\Tesseract-OCR\tesseract.exe
+GOOGLE_API_KEY=your_gemini_api_key
 ```
 
-## API Configuration
+Keep your API key private. Never upload the `.env` file to GitHub.
 
-Create a `.env` file in the project root and add your Google Gemini API key:
+### Running the Application
 
-```text
-GOOGLE_API_KEY=your_google_api_key
-```
+The application uses two separate terminals.
 
-Do not upload your `.env` file to GitHub.
-
-## Running the Application
-
-### Start the FastAPI backend
+**Terminal 1 – Start FastAPI backend**
 
 ```powershell
-python -m uvicorn backend.main:app --host 127.0.0.1 --port 8001
+python -m uvicorn backend.main:app --reload --port 8001
 ```
 
-### Start the Streamlit frontend
+Backend URL:
 
-Open another terminal and run:
+http://127.0.0.1:8001
 
-```powershell
-.\venv\Scripts\Activate.ps1
-python -m streamlit run frontend/app.py --server.port 8502
-```
-
-Open the application:
-
-http://localhost:8502
-
-FastAPI documentation:
+API documentation:
 
 http://127.0.0.1:8001/docs
 
-## RAG Workflow
+**Terminal 2 – Start Streamlit frontend**
 
-1. Upload a PDF or fetch information from the TNAU website.
-2. Extract and split the source information into text chunks.
-3. Convert the chunks into vector embeddings.
-4. Store the embeddings in FAISS.
-5. Retrieve relevant information when a user asks a question.
-6. Send the retrieved context to Google Gemini.
-7. Display the generated answer in Streamlit.
+```powershell
+python -m streamlit run frontend/app.py --server.port 8502
+```
 
-## Project Objective
+Frontend URL:
 
-To make agricultural government scheme information easier to access through an AI-powered question-answering system.
+http://localhost:8502
+
+### Expected Outcome
+
+The application provides farmers with an accessible way to explore agricultural schemes, understand available benefits and subsidies, and ask questions using an AI-powered multilingual chatbot.
+
+### Future Enhancements
+
+- Online deployment for wider farmer access.
+- More agricultural government scheme databases.
+- Improved Tamil-language responses.
+- Additional regional language support.
+- Integration with more official government information sources.
+
+### Disclaimer
+
+This application is an educational project developed for a Generative AI course. Scheme eligibility, subsidy amounts, application procedures and other official details should be verified with the relevant government department before making decisions.
+
+---
+
+**Developed as part of a Generative AI learning project.**
